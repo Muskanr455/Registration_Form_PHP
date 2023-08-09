@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+  </head>
+  <body>
+    <div class="contact-title">
+      <h1>Registration Form</h1>
+      <h2>We are always ready to serve you!</h2>
+
+    </div>
+    <div class="registration-form">
+      <form id = "registration-form" method = "post" action="form.php">
+        <input  name="name" type="text" class="form-control" placeholder="Your Name" required>
+        <br>
+        <input  name="roll_no" type="text" class="form-control" placeholder="Your Roll" required>
+        <br>
+        <input  name="email" type="text" class="form-control" placeholder="Your Email" required>
+        <br>
+        <div >
+          Gender: Male <input type="radio" name="Gender"> Female <input type="radio" name="Gender">
+          Other <input type="radio" name="Gender">
+        </div>
+       <br>
+       <textarea name="Message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+       <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+
+      </form>
+
+    </div>
+  </body>
+</html>
